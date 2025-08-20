@@ -1,0 +1,8 @@
+- action: mqtt.publish
+  metadata: {}
+  data:
+    qos: 0
+    retain: false
+    topic: tts/pi
+    payload: Coffee is done
+    evaluate_payload: false
