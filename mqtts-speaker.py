@@ -40,7 +40,7 @@ def on_message(client, userdata, msg):
 			
 			# Play audio file on speaker
 			print(f"[TTS] INFO: TTS file created: {TEMP_FILE} ({os.path.getsize(TEMP_FILE)} bytes)")
-            os.system(f"mpg123 -q -a {AUDIO_DEVICE} {TEMP_FILE}")
+            os.system(f"mpg321 -q -a {AUDIO_DEVICE} {TEMP_FILE}")
         else:
             print("[TTS] ERR: TTS file seems empty")
 	
