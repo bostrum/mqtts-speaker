@@ -1,4 +1,4 @@
-# mqtt-speaker
+# mqtts-speaker
 Listening for messages from MQTT broker to alert as audio on speaker.  
 Currently using it with Home Assistant to send voice alerts when my coffee is done brewing ☕
 
